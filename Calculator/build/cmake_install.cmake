@@ -1,4 +1,4 @@
-# Install script for directory: C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator
+# Install script for directory: D:/mygit/Calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/mygit/Calculator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

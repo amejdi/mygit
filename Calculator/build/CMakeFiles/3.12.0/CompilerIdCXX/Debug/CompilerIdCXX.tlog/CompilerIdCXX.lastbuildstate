@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=Intel C++ Compiler 18.0:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native64Bit:WindowsTargetPlatformVersion=10.0.17134.0
+Debug|x64|D:\mygit\Calculator\build\CMakeFiles\3.12.0\CompilerIdCXX\|

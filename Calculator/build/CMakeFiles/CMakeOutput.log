@@ -1,4 +1,4 @@
-The system is: Windows - 6.1.7601 - AMD64
+The system is: Windows - 10.0.17134 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
 Build flags: 
@@ -6,43 +6,46 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:57:53 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:05 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
 InitializeBuildStatus:
   Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /nologo /W0 /Od /D __INTEL_COMPILER=1800 /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc141.pdb" /TC /FC CMakeCCompilerId.c
   CMakeCCompilerId.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\3.12.0\CompilerIdC\.\CompilerIdC.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\mygit\Calculator\build\CMakeFiles\3.12.0\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  for %%i in (icl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
-  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\Hostx86\x64\cl.exe
+  CMAKE_C_COMPILER=D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\intel64\icl.exe
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.76
+Time Elapsed 00:00:01.61
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is Intel, found in "D:/mygit/Calculator/build/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -51,276 +54,391 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:57:55 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:07 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
 InitializeBuildStatus:
   Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /nologo /W0 /Od /D __INTEL_COMPILER=1800 /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc141.pdb" /TP /FC CMakeCXXCompilerId.cpp
   CMakeCXXCompilerId.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\3.12.0\CompilerIdCXX\.\CompilerIdCXX.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\mygit\Calculator\build\CMakeFiles\3.12.0\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  for %%i in (icl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
-  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\Hostx86\x64\cl.exe
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\intel64\icl.exe
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.17
+Time Elapsed 00:00:01.34
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/3.12.0/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is Intel, found in "D:/mygit/Calculator/build/CMakeFiles/3.12.0/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_196e2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9c060.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:57:56 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_196e2.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:08 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_9c060.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_196e2.dir\Debug\".
-  Creating directory "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_196e2.dir\Debug\cmTC_196e2.tlog\".
+  Creating directory "cmTC_9c060.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9c060.dir\Debug\cmTC_9c060.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_196e2.dir\Debug\cmTC_196e2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_9c060.dir\Debug\cmTC_9c060.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_196e2.dir\Debug\\" /Fd"cmTC_196e2.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\testCCompiler.c"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9c060.dir\Debug\\" /Fd"cmTC_9c060.dir\Debug\vc141.pdb" /TC /FC D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FocmTC_9c060.dir\Debug\ /FdcmTC_9c060.dir\Debug\vc141.pdb /TC /FC D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\testCCompiler.c
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_196e2.dir\Debug\\" /Fd"cmTC_196e2.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
   testCCompiler.c
-  
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_196e2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_196e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_196e2.lib" /MACHINE:X64  /machine:x64 cmTC_196e2.dir\Debug\testCCompiler.obj
-  cmTC_196e2.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_196e2.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_9c060.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c060.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c060.lib" /MACHINE:X64 cmTC_9c060.dir\Debug\testCCompiler.obj  /machine:x64
 FinalizeBuildStatus:
-  Deleting file "cmTC_196e2.dir\Debug\cmTC_196e2.tlog\unsuccessfulbuild".
-  Touching "cmTC_196e2.dir\Debug\cmTC_196e2.tlog\cmTC_196e2.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_196e2.vcxproj" (default targets).
+  Deleting file "cmTC_9c060.dir\Debug\cmTC_9c060.tlog\unsuccessfulbuild".
+  Touching "cmTC_9c060.dir\Debug\cmTC_9c060.tlog\cmTC_9c060.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_9c060.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.14
+Time Elapsed 00:00:01.40
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_97a89.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f13af.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:57:58 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_97a89.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:10 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_f13af.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_97a89.dir\Debug\".
-  Creating directory "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_97a89.dir\Debug\cmTC_97a89.tlog\".
+  Creating directory "cmTC_f13af.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f13af.dir\Debug\cmTC_f13af.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_97a89.dir\Debug\cmTC_97a89.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_f13af.dir\Debug\cmTC_f13af.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97a89.dir\Debug\\" /Fd"cmTC_97a89.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f13af.dir\Debug\\" /Fd"cmTC_f13af.dir\Debug\vc141.pdb" /TC /FC "D:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FocmTC_f13af.dir\Debug\ /FdcmTC_f13af.dir\Debug\vc141.pdb /TC /FC "D:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97a89.dir\Debug\\" /Fd"cmTC_97a89.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
   CMakeCCompilerABI.c
-  
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_97a89.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_97a89.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_97a89.lib" /MACHINE:X64  /machine:x64 cmTC_97a89.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_97a89.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_97a89.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_f13af.exe" /INCREMENTAL /NOLOGO /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_f13af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_f13af.lib" /MACHINE:X64 cmTC_f13af.dir\Debug\CMakeCCompilerABI.obj  /machine:x64
 FinalizeBuildStatus:
-  Deleting file "cmTC_97a89.dir\Debug\cmTC_97a89.tlog\unsuccessfulbuild".
-  Touching "cmTC_97a89.dir\Debug\cmTC_97a89.tlog\cmTC_97a89.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_97a89.vcxproj" (default targets).
+  Deleting file "cmTC_f13af.dir\Debug\cmTC_f13af.tlog\unsuccessfulbuild".
+  Touching "cmTC_f13af.dir\Debug\cmTC_f13af.tlog\cmTC_f13af.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_f13af.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.30
+Time Elapsed 00:00:01.41
 
 
 
 
-Detecting C [] compiler features compiled with the following output:
-Change Dir: C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp
+Detecting C [-Qstd=c11] compiler features compiled with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3bf26.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bdfda.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:57:59 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_3bf26.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:12 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_bdfda.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_3bf26.dir\Debug\".
-  Creating directory "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_3bf26.dir\Debug\cmTC_3bf26.tlog\".
+  Creating directory "cmTC_bdfda.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bdfda.dir\Debug\cmTC_bdfda.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_3bf26.dir\Debug\cmTC_3bf26.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_bdfda.dir\Debug\cmTC_bdfda.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bf26.dir\Debug\\" /Fd"cmTC_3bf26.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\feature_tests.c"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bdfda.dir\Debug\\" /Fd"cmTC_bdfda.dir\Debug\vc141.pdb" /TC /FC  -Qstd=c11 D:\mygit\Calculator\build\CMakeFiles\feature_tests.c
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FocmTC_bdfda.dir\Debug\ /FdcmTC_bdfda.dir\Debug\vc141.pdb /TC /FC -Qstd=c11 D:\mygit\Calculator\build\CMakeFiles\feature_tests.c
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bf26.dir\Debug\\" /Fd"cmTC_3bf26.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\feature_tests.c"
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
   feature_tests.c
-  
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_3bf26.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_3bf26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_3bf26.lib" /MACHINE:X64  /machine:x64 cmTC_3bf26.dir\Debug\feature_tests.obj
-  cmTC_3bf26.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_3bf26.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_bdfda.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_bdfda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_bdfda.lib" /MACHINE:X64 cmTC_bdfda.dir\Debug\feature_tests.obj  /machine:x64
 FinalizeBuildStatus:
-  Deleting file "cmTC_3bf26.dir\Debug\cmTC_3bf26.tlog\unsuccessfulbuild".
-  Touching "cmTC_3bf26.dir\Debug\cmTC_3bf26.tlog\cmTC_3bf26.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_3bf26.vcxproj" (default targets).
+  Deleting file "cmTC_bdfda.dir\Debug\cmTC_bdfda.tlog\unsuccessfulbuild".
+  Touching "cmTC_bdfda.dir\Debug\cmTC_bdfda.tlog\cmTC_bdfda.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_bdfda.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.14
+Time Elapsed 00:00:01.32
 
 
     Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
     Feature record: C_FEATURE:1c_variadic_macros
-Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c97a1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+
+Detecting C [-Qstd=c99] compiler features compiled with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_d1d09.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:58:01 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_c97a1.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:13 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_d1d09.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_c97a1.dir\Debug\".
-  Creating directory "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_c97a1.dir\Debug\cmTC_c97a1.tlog\".
+  Creating directory "cmTC_d1d09.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d1d09.dir\Debug\cmTC_d1d09.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_c97a1.dir\Debug\cmTC_c97a1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_d1d09.dir\Debug\cmTC_d1d09.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c97a1.dir\Debug\\" /Fd"cmTC_c97a1.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d1d09.dir\Debug\\" /Fd"cmTC_d1d09.dir\Debug\vc141.pdb" /TC /FC  -Qstd=c99 D:\mygit\Calculator\build\CMakeFiles\feature_tests.c
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FocmTC_d1d09.dir\Debug\ /FdcmTC_d1d09.dir\Debug\vc141.pdb /TC /FC -Qstd=c99 D:\mygit\Calculator\build\CMakeFiles\feature_tests.c
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c97a1.dir\Debug\\" /Fd"cmTC_c97a1.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
-  testCXXCompiler.cxx
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
   
+  feature_tests.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_c97a1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_c97a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_c97a1.lib" /MACHINE:X64  /machine:x64 cmTC_c97a1.dir\Debug\testCXXCompiler.obj
-  cmTC_c97a1.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_c97a1.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_d1d09.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_d1d09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_d1d09.lib" /MACHINE:X64 cmTC_d1d09.dir\Debug\feature_tests.obj  /machine:x64
 FinalizeBuildStatus:
-  Deleting file "cmTC_c97a1.dir\Debug\cmTC_c97a1.tlog\unsuccessfulbuild".
-  Touching "cmTC_c97a1.dir\Debug\cmTC_c97a1.tlog\cmTC_c97a1.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_c97a1.vcxproj" (default targets).
+  Deleting file "cmTC_d1d09.dir\Debug\cmTC_d1d09.tlog\unsuccessfulbuild".
+  Touching "cmTC_d1d09.dir\Debug\cmTC_d1d09.tlog\cmTC_d1d09.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_d1d09.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.31
+Time Elapsed 00:00:01.33
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-Qstd=c89] compiler features compiled with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_75c86.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/4/2019 11:49:15 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_75c86.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_75c86.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_75c86.dir\Debug\cmTC_75c86.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_75c86.dir\Debug\cmTC_75c86.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
+ClCompile:
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_75c86.dir\Debug\\" /Fd"cmTC_75c86.dir\Debug\vc141.pdb" /TC /FC  -Qstd=c89 D:\mygit\Calculator\build\CMakeFiles\feature_tests.c
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FocmTC_75c86.dir\Debug\ /FdcmTC_75c86.dir\Debug\vc141.pdb /TC /FC -Qstd=c89 D:\mygit\Calculator\build\CMakeFiles\feature_tests.c
+  
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+icl: : warning #10159: invalid argument for option '/Qstd' [D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_75c86.vcxproj]
+  
+  feature_tests.c
+Link:
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_75c86.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_75c86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_75c86.lib" /MACHINE:X64 cmTC_75c86.dir\Debug\feature_tests.obj  /machine:x64
+FinalizeBuildStatus:
+  Deleting file "cmTC_75c86.dir\Debug\cmTC_75c86.tlog\unsuccessfulbuild".
+  Touching "cmTC_75c86.dir\Debug\cmTC_75c86.tlog\cmTC_75c86.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_75c86.vcxproj" (default targets).
+
+Build succeeded.
+
+"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_75c86.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  icl: : warning #10159: invalid argument for option '/Qstd' [D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_75c86.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6b1b4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/4/2019 11:49:17 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_6b1b4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6b1b4.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6b1b4.dir\Debug\cmTC_6b1b4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6b1b4.dir\Debug\cmTC_6b1b4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
+ClCompile:
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_6b1b4.dir\Debug\\" /Fd"cmTC_6b1b4.dir\Debug\vc141.pdb" /TP /FC D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /FocmTC_6b1b4.dir\Debug\ /FdcmTC_6b1b4.dir\Debug\vc141.pdb /TP /FC D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_6b1b4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_6b1b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_6b1b4.lib" /MACHINE:X64 cmTC_6b1b4.dir\Debug\testCXXCompiler.obj  /machine:x64
+FinalizeBuildStatus:
+  Deleting file "cmTC_6b1b4.dir\Debug\cmTC_6b1b4.tlog\unsuccessfulbuild".
+  Touching "cmTC_6b1b4.dir\Debug\cmTC_6b1b4.tlog\cmTC_6b1b4.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_6b1b4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_71268.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_82b98.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:58:02 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_71268.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:18 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_82b98.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_71268.dir\Debug\".
-  Creating directory "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_71268.dir\Debug\cmTC_71268.tlog\".
+  Creating directory "cmTC_82b98.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_82b98.dir\Debug\cmTC_82b98.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_71268.dir\Debug\cmTC_71268.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_82b98.dir\Debug\cmTC_82b98.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71268.dir\Debug\\" /Fd"cmTC_71268.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_82b98.dir\Debug\\" /Fd"cmTC_82b98.dir\Debug\vc141.pdb" /TP /FC "D:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /FocmTC_82b98.dir\Debug\ /FdcmTC_82b98.dir\Debug\vc141.pdb /TP /FC "D:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71268.dir\Debug\\" /Fd"cmTC_71268.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
   CMakeCXXCompilerABI.cpp
-  
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_71268.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_71268.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_71268.lib" /MACHINE:X64  /machine:x64 cmTC_71268.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_71268.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_71268.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_82b98.exe" /INCREMENTAL /NOLOGO /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_82b98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_82b98.lib" /MACHINE:X64 cmTC_82b98.dir\Debug\CMakeCXXCompilerABI.obj  /machine:x64
 FinalizeBuildStatus:
-  Deleting file "cmTC_71268.dir\Debug\cmTC_71268.tlog\unsuccessfulbuild".
-  Touching "cmTC_71268.dir\Debug\cmTC_71268.tlog\cmTC_71268.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_71268.vcxproj" (default targets).
+  Deleting file "cmTC_82b98.dir\Debug\cmTC_82b98.tlog\unsuccessfulbuild".
+  Touching "cmTC_82b98.dir\Debug\cmTC_82b98.tlog\cmTC_82b98.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_82b98.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.38
+Time Elapsed 00:00:01.37
 
 
 
 
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp
+Detecting CXX [-Qstd=c++17] compiler features compiled with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bc5dd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9991e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/11/2018 5:58:04 PM.
-Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_bc5dd.vcxproj" on node 1 (default targets).
+Build started 3/4/2019 11:49:20 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_9991e.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_bc5dd.dir\Debug\".
-  Creating directory "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_bc5dd.dir\Debug\cmTC_bc5dd.tlog\".
+  Creating directory "cmTC_9991e.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9991e.dir\Debug\cmTC_9991e.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_bc5dd.dir\Debug\cmTC_bc5dd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_9991e.dir\Debug\cmTC_9991e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc5dd.dir\Debug\\" /Fd"cmTC_bc5dd.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\feature_tests.cxx"
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9991e.dir\Debug\\" /Fd"cmTC_9991e.dir\Debug\vc141.pdb" /TP /FC  -Qstd=c++17 D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /FocmTC_9991e.dir\Debug\ /FdcmTC_9991e.dir\Debug\vc141.pdb /TP /FC -Qstd=c++17 D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc5dd.dir\Debug\\" /Fd"cmTC_bc5dd.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\feature_tests.cxx"
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
   feature_tests.cxx
-  
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_bc5dd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_bc5dd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ESI_work/MyGit/Qt examples/TEST-2/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_bc5dd.lib" /MACHINE:X64  /machine:x64 cmTC_bc5dd.dir\Debug\feature_tests.obj
-  cmTC_bc5dd.vcxproj -> C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_bc5dd.exe
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_9991e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_9991e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_9991e.lib" /MACHINE:X64 cmTC_9991e.dir\Debug\feature_tests.obj  /machine:x64
 FinalizeBuildStatus:
-  Deleting file "cmTC_bc5dd.dir\Debug\cmTC_bc5dd.tlog\unsuccessfulbuild".
-  Touching "cmTC_bc5dd.dir\Debug\cmTC_bc5dd.tlog\cmTC_bc5dd.lastbuildstate".
-Done Building Project "C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\CMakeFiles\CMakeTmp\cmTC_bc5dd.vcxproj" (default targets).
+  Deleting file "cmTC_9991e.dir\Debug\cmTC_9991e.tlog\unsuccessfulbuild".
+  Touching "cmTC_9991e.dir\Debug\cmTC_9991e.tlog\cmTC_9991e.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_9991e.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.14
+Time Elapsed 00:00:01.46
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -335,7 +453,7 @@ Time Elapsed 00:00:01.14
     Feature record: CXX_FEATURE:1cxx_contextual_conversions
     Feature record: CXX_FEATURE:1cxx_decltype
     Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
     Feature record: CXX_FEATURE:1cxx_default_function_template_args
     Feature record: CXX_FEATURE:1cxx_defaulted_functions
     Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
@@ -363,6 +481,7 @@ Time Elapsed 00:00:01.14
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -379,3 +498,300 @@ Time Elapsed 00:00:01.14
     Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-Qstd=c++14] compiler features compiled with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8db59.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/4/2019 11:49:22 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_8db59.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8db59.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8db59.dir\Debug\cmTC_8db59.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8db59.dir\Debug\cmTC_8db59.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
+ClCompile:
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8db59.dir\Debug\\" /Fd"cmTC_8db59.dir\Debug\vc141.pdb" /TP /FC  -Qstd=c++14 D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /FocmTC_8db59.dir\Debug\ /FdcmTC_8db59.dir\Debug\vc141.pdb /TP /FC -Qstd=c++14 D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
+  
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_8db59.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_8db59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_8db59.lib" /MACHINE:X64 cmTC_8db59.dir\Debug\feature_tests.obj  /machine:x64
+FinalizeBuildStatus:
+  Deleting file "cmTC_8db59.dir\Debug\cmTC_8db59.tlog\unsuccessfulbuild".
+  Touching "cmTC_8db59.dir\Debug\cmTC_8db59.tlog\cmTC_8db59.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_8db59.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-Qstd=c++11] compiler features compiled with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_04b94.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/4/2019 11:49:24 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_04b94.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_04b94.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_04b94.dir\Debug\cmTC_04b94.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_04b94.dir\Debug\cmTC_04b94.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
+ClCompile:
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_04b94.dir\Debug\\" /Fd"cmTC_04b94.dir\Debug\vc141.pdb" /TP /FC  -Qstd=c++11 D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /FocmTC_04b94.dir\Debug\ /FdcmTC_04b94.dir\Debug\vc141.pdb /TP /FC -Qstd=c++11 D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
+  
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_04b94.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_04b94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_04b94.lib" /MACHINE:X64 cmTC_04b94.dir\Debug\feature_tests.obj  /machine:x64
+FinalizeBuildStatus:
+  Deleting file "cmTC_04b94.dir\Debug\cmTC_04b94.tlog\unsuccessfulbuild".
+  Touching "cmTC_04b94.dir\Debug\cmTC_04b94.tlog\cmTC_04b94.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_04b94.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/mygit/Calculator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7386b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/4/2019 11:49:26 AM.
+Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_7386b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7386b.dir\Debug\".
+  Creating directory "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7386b.dir\Debug\cmTC_7386b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7386b.dir\Debug\cmTC_7386b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+MessageBuildingWithCompiler:
+  Building with Intel(R) C++ Compiler 18.0
+ClCompile:
+  ***** ClCompile (x64 - Intel C++)
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\icl.exe /c /Qm64 /Zi /W3 /Od /Ob0 /D __INTEL_COMPILER=1800 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_7386b.dir\Debug\\" /Fd"cmTC_7386b.dir\Debug\vc141.pdb" /TP /FC D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
+  icl /Qm64 /Zi /W3 /Od /Ob0 -D __INTEL_COMPILER=1800 -D WIN32 -D _WINDOWS -D CMAKE_INTDIR="Debug" -D _MBCS /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /FocmTC_7386b.dir\Debug\ /FdcmTC_7386b.dir\Debug\vc141.pdb /TP /FC D:\mygit\Calculator\build\CMakeFiles\feature_tests.cxx
+  
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.3.210 Build 20180410
+  Copyright (C) 1985-2018 Intel Corporation.  All rights reserved.
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018\windows\bin\Intel64\xilink.exe -qm64 /OUT:"D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\Debug\cmTC_7386b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /manifest:embed /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_7386b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mygit/Calculator/build/CMakeFiles/CMakeTmp/Debug/cmTC_7386b.lib" /MACHINE:X64 cmTC_7386b.dir\Debug\feature_tests.obj  /machine:x64
+FinalizeBuildStatus:
+  Deleting file "cmTC_7386b.dir\Debug\cmTC_7386b.tlog\unsuccessfulbuild".
+  Touching "cmTC_7386b.dir\Debug\cmTC_7386b.tlog\cmTC_7386b.lastbuildstate".
+Done Building Project "D:\mygit\Calculator\build\CMakeFiles\CMakeTmp\cmTC_7386b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.42
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8E34D8A6-FF76-3545-BD10-9D304FFB0A77}</ProjectGuid>
+    <ProjectGuid>{76FAE07D-AEF1-3A60-ACCC-3364F8298AF3}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -30,22 +30,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 18.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 18.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 18.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler 18.0</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -104,12 +104,12 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\ZERO_CHECK.vcxproj">
-      <Project>{E8EF2D00-E3A7-3251-A6F4-88B22AF1CA87}</Project>
+    <ProjectReference Include="D:\mygit\Calculator\build\ZERO_CHECK.vcxproj">
+      <Project>{2CFBF58B-28BE-3274-832C-EC9AD870EFDB}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\Calculator.vcxproj">
-      <Project>{630818A8-513D-3C62-8A68-B97FB47F5221}</Project>
+    <ProjectReference Include="D:\mygit\Calculator\build\Calculator.vcxproj">
+      <Project>{E9D1DC30-5434-3590-8340-05C8C8063206}</Project>
       <Name>Calculator</Name>
     </ProjectReference>
   </ItemGroup>

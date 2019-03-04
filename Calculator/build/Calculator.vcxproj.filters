@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\main.cpp">
+    <ClCompile Include="D:\mygit\Calculator\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\MainWindow.cpp">
+    <ClCompile Include="D:\mygit\Calculator\MainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\build\Calculator_autogen\mocs_compilation.cpp">
+    <ClCompile Include="D:\mygit\Calculator\build\Calculator_autogen\mocs_compilation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\MainWindow.h">
+    <ClInclude Include="D:\mygit\Calculator\MainWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\ESI_work\MyGit\Qt examples\TEST-2\Calculator\CMakeLists.txt" />
+    <CustomBuild Include="D:\mygit\Calculator\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{7AFEC33E-2578-35E7-AFD6-F90CFCF4AACE}</UniqueIdentifier>
+      <UniqueIdentifier>{19EFD4F0-59A7-395A-8693-E04410AB63AE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{25F4259B-2A68-3303-A032-F57C7B209FFF}</UniqueIdentifier>
+      <UniqueIdentifier>{5575F6F8-4F42-378D-8BF5-34FE18499D48}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
