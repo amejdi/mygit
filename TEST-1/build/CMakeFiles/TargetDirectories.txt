@@ -1,0 +1,3 @@
+C:/ESI_work/MyGit/Qt examples/TEST-1/build/CMakeFiles/test.dir
+C:/ESI_work/MyGit/Qt examples/TEST-1/build/CMakeFiles/ALL_BUILD.dir
+C:/ESI_work/MyGit/Qt examples/TEST-1/build/CMakeFiles/ZERO_CHECK.dir
