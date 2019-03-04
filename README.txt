@@ -1,1 +1,1 @@
-projetct QT
+projetcts C++ /QT
